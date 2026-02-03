@@ -19,6 +19,21 @@ header {
   color: #bea683;
 }
 
+.book-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  text-align: center;
+  background-color: #bea683;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;  
+}
+
+.book-btn:hover, .book-btn:active {
+  background-color: #a1886f;
+}
+
 nav {
   display: flex;
   gap: 10px;
@@ -40,24 +55,6 @@ section {
   padding: 10px 20px;
 }
 
-#hero {
-  background-image: url('./images/dylan-calluy-8BYahZcwYgI-unsplash.jpg');
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
- 
-  color: white;
-  text-align: center;
-  padding: 0 20px;
-}
-
-.hero-tag {
-  font-size: 1.5em;
-  margin-top: 20vh;
-  margin-bottom: 0.5em;
-  color: red;
-}
-
 a {
   text-decoration: none;
 }
@@ -70,24 +67,97 @@ h1 {
 h2 {
   font-size: 2em;
   margin-bottom: 0.5em;
+  text-align: center;
 }
 
+hr {
+  border: none;
+  border-top: 3px solid #bea683;
+  margin: 20px 0;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
+#hero {
+  background-image: url('./images/dylan-calluy-8BYahZcwYgI-unsplash.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+ 
+  color: white;
+  text-align: center;
+  padding: 0 20px;
 
-.book-btn {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#hero .bg-opacity {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+}
+
+#hero .hero-tag {
+  font-size: 1.5em;
+  font-weight: 700;
+  margin-top: 20vh;
+  margin-bottom: 0.5em;
+  
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 5px 10px;
+  border-radius: 20px;
+}
+
+#hero .hero-content {
+  z-index: 2;
+}
+
+#hero h1 {
+  font-size: 5em;
+  max-width: 800px;
+  margin: 0 auto;
+  margin-bottom: 0.2em;
+}
+
+#hero p {
+  font-size: 1.5em;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+#hero .hero-book-btn {
+  margin-top: 20px;
+  width: 300px;
   display: inline-block;
-  padding: 10px 20px;
+  padding: 15px 0;
   text-align: center;
   background-color: #bea683;
   color: white;
   text-decoration: none;
   border-radius: 5px;
-  font-weight: bold;  
+  font-weight: bold; 
 }
 
-.book-btn:hover, .book-btn:active {
-  background-color: #a1886f;
+
+/* ABOUT - HOMEPAGE */
+#about p {
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 1.2em;
+  line-height: 1.6em;
 }
+
+
 
 footer {
   text-align: center;
