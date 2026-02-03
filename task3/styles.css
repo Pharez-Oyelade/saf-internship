@@ -24,6 +24,13 @@ section {
   padding: 0 20px;
 }
 
+.hero-tag {
+  font-size: 1.5em;
+  margin-top: 20vh;
+  margin-bottom: 0.5em;
+  color: red;
+}
+
 a {
   text-decoration: none;
 }
@@ -57,4 +64,44 @@ footer {
   text-align: center;
   padding: 10px 20px;
   background-color: #f1f1f1;
+}
+
+
+/* Book a Stay  */
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  margin-top: 10px;
+}
+
+input, select{
+  width: 100%;
+  padding: 10px;
+}
+ 
+input[type="submit"] {
+  background-color: #bea683;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+
+/* Confirmation */
+#confirmation {
+  text-align: center;
+  padding: 20px;
+  background-color: #e0ffe0;
+  border: 2px solid #00cc00;
+  border-radius: 5px;
+  margin-top: 20px;
 }
