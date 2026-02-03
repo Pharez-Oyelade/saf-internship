@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  padding: 0;
+}
+
+header {
+  padding: 10px 20px;
+  text-align: center;
+}
+
+section {
+  padding: 10px 20px;
+}
+
+#hero {
+  background-image: url('./images/dylan-calluy-8BYahZcwYgI-unsplash.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+ 
+  color: white;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.hero-tag {
+  font-size: 1.5em;
+  margin-top: 20vh;
+  margin-bottom: 0.5em;
+  color: red;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 3em;
+  margin-bottom: 0.5em;
+}
+
+h2 {
+  font-size: 2em;
+  margin-bottom: 0.5em;
+}
+
+.book-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  text-align: center;
+  background-color: #bea683;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;  
+}
+
+.book-btn:hover, .book-btn:active {
+  background-color: #a1886f;
+}
+
+footer {
+  text-align: center;
+  padding: 10px 20px;
+  background-color: #f1f1f1;
+}
+
+
+/* Book a Stay  */
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  margin-top: 10px;
+}
+
+input, select{
+  width: 100%;
+  padding: 10px;
+}
+ 
+input[type="submit"] {
+  background-color: #bea683;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+
+/* Confirmation */
+#confirmation {
+  text-align: center;
+  padding: 20px;
+  background-color: #e0ffe0;
+  border: 2px solid #00cc00;
+  border-radius: 5px;
+  margin-top: 20px;
+}
