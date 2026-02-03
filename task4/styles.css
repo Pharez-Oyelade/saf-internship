@@ -7,6 +7,33 @@ body {
 header {
   padding: 10px 20px;
   text-align: center;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #bea683;
+}
+
+nav {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+nav a {
+  margin: 0 15px;
+  color: #333;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #bea683;
 }
 
 section {
@@ -44,6 +71,8 @@ h2 {
   font-size: 2em;
   margin-bottom: 0.5em;
 }
+
+
 
 .book-btn {
   display: inline-block;
